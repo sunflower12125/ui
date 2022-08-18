@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!--Including css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Including Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>citi </title>
+  </head>
+
+  <body>
+
+    <!--signout div-->
+    <div class="container-fluid first-row">
+        <a href="#">Sign out</a>
+    </div>
+
+    <div class="container-fluid second-row" id="grad1">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img id="resize" src="./img/icons/logo.png">
+                    <p class="title">Portfolio Manager</p>
+                </div>
+
+                <div class="col-md-6">
+                    <p class="name">sample Name</p><br/>
+                    <p class="time">Login Time - <span>August 19, 2022 4:27 PM</span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 adjust-accordion">
+      
+                <div id="js-accordion">
+
+                    <!--home-->
+                    <h2 class="acc-toggle-js-css"><span class="drop-js js-hide"></span> Home </h2>
+                    <div class="accordion-content">
+                      <p>This is the content of home,This is the content of home,This is the content of home </p>
+                    </div>
+
+                    <!--main-->
+                    <h2 class="acc-toggle-js-css"><span class="drop-js js-hide"></span> Main </span></h2>
+                    <div class="accordion-content">
+                      <p>This is the content of main, this is the content of main,this is the content of main</p>
+                    </div>
+
+                    <!--reporting and analytics-->
+                    <h2 class="acc-toggle-js-css"><span class="drop-js js-hide"></span> Reporting & Analytics </h2>
+                    <div class="accordion-content">
+                      <p>This is the content of reporting and analytics,This is the content of reporting and analytics</p>
+                    </div>
+
+                    <!--asset sale initiation-->
+                    <h2 class="acc-toggle-js-css"><span class="drop-js js-hide"></span> Asset Sale Initiation </h2>
+                    <div class="accordion-content">
+                      <p>This is the content of asset sale initiation, this is the content of asset sale initiation</p>
+                    </div>
+
+                    <!--investor and sales-->
+                    <h2 class="acc-toggle-js-css"><span class="drop-js js-hide"></span> Investor and Sales </h2>
+                    <div class="accordion-content">
+
+                    </div> <!-- Investor and sales accordion content-->
+
+                    <h2 class="acc-toggle-js-css"> <span class="drop-js js-hide"></span> Security Administration</h2>
+                        <div class="accordion-content">
+                            <p>This is the content of security administration,This is the content of security administration</p>
+                        </div>
+
+                </div> <!-- js accordion End -->
+          
+          </div> <!-- end of col-2-->
+
+          <!--rightmost part col-10-->
+
+          <div class="col-md-10 col-sm-10 tab-panel">
+              <div id="tabs-border">
+                <ul class="tabs-menu tabs-menu-js">
+                    <li class="current"><a href="#first-tab">General</a></li>
+                  
+                    <li><a href="#third-tab">Contact</a></li>
+                    <li><a href="#fourth-tab">Profile </a></li>
+                </ul>
+          
+                <div>
+                    <div id="first-tab" class="tab-content-js tab-content">
+                        <div class="container-fluid">
+                          <div class="border"><!-- general begins-->
+                            <div class="general-bg">
+                                General
+                            </div>
+
+                               
+                            <div class="row padding-adj">
+                                   <!--first row-->
+                                <div class="col-md-4">
+                                        <label for="">Investor Name <span>*</span> </label>
+                                        <input type="text" name="" id="" value=""  style="width:270px">
+                                        <i class="fa fa-search" aria-hidden="true" style="color:grey;"></i>
+                                </div>
+                                
+
+
+                                
+
+                                <!--buttons section-->
+                                <div class="row container"> 
+                                    <div class="col-md-10  form-group">
+                                          <button class="btn inverted-btn">Clear</button>
+                                    </div>
+                
+                                    <div class="col-md-1  form-group">
+                                          <button class="btn btn-primary">Save</button> 
+                                    </div>
+
+                                    <div class="col-md-1  form-group">
+                                          <button class="btn btn-primary">Cancel</button>
+                                    </div>
+                                </div>
+                                
+                            </div> <!-- end of row-->
+                          </div><!-- end of general-->
+                        </div> <!-- end of container fluid-->
+
+
+                        <div class="col-md-1  form-group" style="float:right">      
+                                <button class="btn btn-primary">Next</button>
+                        </div> 
+
+                    </div><!-- end of tab content-->
+              </div> <!-- end of tab-->
+
+              <div id="third-tab" class="tab-content tab-content-js ">
+                    <p>content of contact </p>
+              </div>
+
+              <div id="fourth-tab" class="tab-content tab-content-js ">
+                    <p>profile content</p>
+              </div>
+
+              
+
+        </div><!-- end of tabs container-->
+    </div> <!-- end of col-10-->
+    
+
+    <!-- including the js-->
+    <script src="js/jquery-v3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
